@@ -1,18 +1,19 @@
 .menu-items {
-position: absolute;
+position: relative;
 align-items: center;
 display: none;
 }
 
-.expanding-menu:hover .menu-items {
-display: block;
+.menu-items {
+display:flex;
 }
 
 .my_button {
     font-family: 'Inter';
     font-weight: 350;
     padding: 0px;
-    color: white
+    color: white;
+    cursor: pointer;
 }
 
 .my_button:hover {
