@@ -1,17 +1,13 @@
 #top {
-width: 100%; /* Ensure the container takes the full width of the viewport */
-background-color: #000000; /* Optional: Background color for the container */
-padding: 20px; /* Optional: Padding for the container */
-}
+    width: 100%; /* Ensure the container takes the full width of the viewport */
+    background-color: #000000; /* Optional: Background color for the container */
+    padding: 20px; /* Optional: Padding for the container */
+    }
 
-#links {
-display: flex;
-flex-direction: row;
-justify-content: space-evenly; /* Distribute items evenly */
-align-items: center; /* Center items vertically within the container */
-}
-
-#links h4 {
-    margin: 0; /* Remove default margins for h4 elements */
-}
+    #menu_bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly; /* Distribute items evenly */
+        align-items: center; /* Center items vertically within the container */
+        }
   
