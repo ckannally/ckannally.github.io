@@ -1,0 +1,28 @@
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.nallify-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 100vh;
+}
+
+.nallify-container .sub_header {
+    top: 0;
+}
+
+.graph-image {
+    max-width: 50%;
+    height: auto;
+    fill: blue;
+    animation: rotate 200s linear infinite; /* Add this line for rotation */
+}

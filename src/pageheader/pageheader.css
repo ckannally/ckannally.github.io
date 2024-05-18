@@ -1,0 +1,19 @@
+.sub_header {
+    width: 100vw;
+    height: 2vh;
+    background-color: #404040;
+    top: 0;
+    display: flex;
+    justify-content: center; /* flex-start; Align items to the left */
+    align-items: center; /* Vertically center the items */
+    flex-direction: row; 
+    padding-right: 0px;
+}
+
+.sub_header p {
+    margin: 0;
+    font-weight: 650;
+    font-size: 10px;
+}
+
+

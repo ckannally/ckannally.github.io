@@ -1,13 +1,17 @@
 #top {
+    display: flex; /* Add this to make it a flex container */
     width: 100%; /* Ensure the container takes the full width of the viewport */
+    height: 5vh; /* Set the height as you intended */
     background-color: #000000; /* Optional: Background color for the container */
-    padding: 20px; /* Optional: Padding for the container */
-    }
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally, if needed */
+    flex-direction: column; /* Optional: if you want items to be in a column layout */
+}
 
-    #menu_bar {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly; /* Distribute items evenly */
-        align-items: center; /* Center items vertically within the container */
-        }
-  
+#menu_bar {
+    display: flex; /* Ensure this is a flex container */
+    flex-direction: row; /* Ensure items are in a row layout */
+    justify-content: space-evenly; /* Distribute items evenly */
+    align-items: center; /* Center items vertically within the container */
+    width: 100%; /* Optional: Full width if necessary */
+}
