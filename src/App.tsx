@@ -1,20 +1,19 @@
-import reactLogo from './assets/react.svg'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import './App.css'
-import Header from './home/home.tsx'
+import Header from './heading/header'
+import About from './pages/about'
+import Nallify from './pages/spotify'
 
 function App() {
 
   return (
-    <>
-      <div>
+    <Router>
         <Header />
-      </div>
-      <div>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-    </>
+        <Routes>
+          <Route path="/about" element={<About/>} />
+          <Route path="/nallify" element={<Nallify/>} />
+        </Routes>
+    </Router>
   )
 }
 
