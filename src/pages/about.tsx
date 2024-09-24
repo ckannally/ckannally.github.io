@@ -5,7 +5,12 @@ function About() {
 
     return (
         <>
-            <PageHeader name="About Me"/>
+        <PageHeader name="About Me"/>
+            <div className="links">
+                <p>Test</p>
+                <p>Test</p>
+                <p>Test</p>
+            </div>
         </>
         
     );

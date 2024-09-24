@@ -4,3 +4,8 @@ body {
     bottom: 0;
     background-color: #000000;
 }
+
+.links {
+    font-size: 12px;
+    color: #BB0000;
+}
